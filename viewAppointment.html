@@ -1,0 +1,85 @@
+<!-- <html>
+    <head>
+        <script src="storage.js"></script>
+    </head> -->
+
+    <!-- <body>
+     
+       <form action="viewData.html" onsubmit="return addAppointmentFormSubmit()">
+	<div>
+           <label>sno</label>
+           <input type="text" id="sno" />
+       </div>
+
+       <div>
+           <label>Name</label>
+           <input type="text" id="inm" />
+       </div>
+       <div>
+        <label>Address</label>
+        <input type="string" id="addr" />
+       </div>
+       <div>
+        <label>City</label>
+        <input type="string" id="City" />
+       </div>
+       <div>
+        <label>Package</label>
+        <input type="float" id="pckg" />
+       </div>
+       <div>
+        <label>Trainer-preference</label>
+        <input type="string" id="tripref" />
+       </div>
+       <div>
+        <label>Phonenumber</label>
+        <input type="int" id="phn" />
+       </div>
+       </form>
+    </body>
+</html> -->
+
+
+VIEWDATA.HTML
+--------------
+
+
+<html>
+
+<head>
+    <style>
+        table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+         th, td {
+          padding: 5px;
+           text-align: left;    
+            }
+            
+</style>
+</head>
+
+<body onload="loadAppointments()">
+  <table>
+    <thead>
+      <tr>
+         <th>sno</th>
+         <th>Name</th>
+         <th>Address</th>
+         <th>City</th>
+	     <th>Package</th>
+	     <th>Trainer-preference</th>
+	     <th>Phonenumber</th>
+      </tr>
+    </thead>
+    <tbody id="prdData"></tbody>
+  </table>
+</body>
+
+</html>
+
+
+
+
+

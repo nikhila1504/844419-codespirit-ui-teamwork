@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+  
+  <table align="center">
+    <h2 align="center">Contact Us</h2>
+    <tr>
+      <td>
+        <label>Name:</label>
+      </td>
+      <td>
+        <input type="text" placeholder="enter your name" pattern ="/^[a-zA-Z]" required>
+      </td>
+    </tr>
+    <tr>
+    <td>
+      <label>Phone Number:</label>
+    </td>
+    <td>
+      <input type="text" placeholder="enter phone number" pattern ="/^(\([0-9]{3}\)" required>
+   </td>
+   </tr>
+    <tr>
+      <td>
+        <label>Email:</label>
+      </td>
+      <td>
+        <input type="email" placeholder=" email" required>
+      </td>
+    </tr>
+  </table>
+  <table align="center">
+    <tr>
+      <td>Description:</td>
+      <td>
+        <fieldset >
+          <textarea placeholder="Description..." tabindex="5" required></textarea>
+        </fieldset>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button type="submit" target="./blank">submit</button>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
